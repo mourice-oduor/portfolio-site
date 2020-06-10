@@ -499,6 +499,9 @@ header {
 .social-list__item {
     margin: 0 .5em;
 }
+.social-list__item .social-list__link {
+    font-weight: var(--fw-bold);
+}
 
 .social-list__link {
     padding: .5em;
