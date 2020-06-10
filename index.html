@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevMourice Portfolio Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo/logo.jpg" alt="logo">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="https://github.com/mourice-oduor" class="nav__link">Github</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Mourice Otieno Oduor</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">full-stack dev</p>
+        <img src="images/5.jpg" alt="a picture of moryso at IEEE KU">
+    </section>
+
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Web Design + Development</h3>
+                <img src="images/web-d.jpg" alt="">
+                <p>I specializes in customized website design, development and maintenance to match the specific requirements of my
+                clients. My eye-catching and striking websites are professionally designed for ease of navigation.
+                </p>
+            </div>
+
+            <div class="service">
+                <h3>Ecommerce</h3>
+                <img src="images/ecom.jpeg" alt="">
+                <p>I develop a real-time shopping Cart Website with Django. This online business project displays products
+                    where users can add and remove products to/from their cart while also specifying the quantity of each item.
+                </p>
+            </div>
+
+            <div class="service">
+                <h3>Software Development</h3>
+                <img src="images/soft-dev.jpg" alt="">
+                <p>I design and develop quality softwares, while considering the basic principles, strategies and standards required for
+                a complete software.</p>
+            </div>
+        </div> 
+
+        <a href="portfolio-item.html" class="btn">My Recent Project</a>
+    </section>
+
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+
+        <div class="about-me__body">
+            <p>I am an Applied Mathematics engineer with a degree in BSc Mathematics and Computer
+                Science, attained at Taita Taveta University.<br>
+                Currently awaiting to graduate in November 2020.
+            </p>
+            
+            <p> Majorly, I am a full stack software/web developer with experience in;</p>
+            <li class="list-unstyled"><a href="https://github.com/mourice-oduor/Django-Full-Stack">Python- Django</a>
+            </li>
+            <li class="list-unstyled"><a href="https://github.com/mourice-oduor/Node.js">JavaScript- Nodejs(mongodb)</a>
+            </li>
+            </p>
+        </div>
+
+        <img src="images/moryso.jpg" alt="moryso">
+        <p class="section__subtitle section__subtitle--about">Designer & developer based out of Kenya</p>
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My work</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="index.html" class="portfolio__item">
+                <img src="images/html.jpg" alt="html" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="index.html" class="portfolio__item">
+                <img src="images/css2.jpg" alt="css" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="https://github.com/mourice-oduor/JavaScript-learnig" class="portfolio__item">
+                <img src="images/javascrpt.png" alt="JavaScript" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="https://github.com/mourice-oduor/jQuery" class="portfolio__item">
+                <img src="images/jquery.jpg" alt="jQuery" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 05 -->
+            <a href="https://github.com/mourice-oduor/Node.js" class="portfolio__item">
+                <img src="images/node2.png" alt="Nodejs" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 06 -->
+            <a href="https://github.com/mourice-oduor/Node.js/tree/master/YelpCamp_4" class="portfolio__item">
+                <img src="images/yelp3.jpg" alt="yelp-camp" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 07 -->
+            <a href="https://github.com/mourice-oduor/Python-projects/tree/master/text%20to%20speech" class="portfolio__item">
+                <img src="images/tts.png" alt="text-speech" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 08 -->
+            <a href="https://github.com/mourice-oduor/Intel-Edge-AI-Foundation-course-" class="portfolio__item">
+                <img src="images/intel-AI.jpeg" alt="intel-AI" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 09 -->
+            <a href="https://github.com/mourice-oduor/Sky-Ground_Horizon_Detector" class="portfolio__item">
+                <img src="images/sky-ground.jpg" alt="horizon-detect" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item  10-->
+            <a href="https://github.com/mourice-oduor/Python-Face_Recognition" class="portfolio__item">
+                <img src="images/opencv.jpeg" alt="face-recognition" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item  11-->
+            <a href="https://github.com/mourice-oduor/Insta-Bot_2" class="portfolio__item">
+                <img src="images/Instagram-Bot-H.png" alt="instabot" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item  12-->
+            <a href="https://github.com/mourice-oduor/Snake-Game" class="portfolio__item">
+                <img src="images/snake-1.png" alt="snake-game" class="portfolio__img">
+            </a>
+
+            <a href="https://github.com/mourice-oduor/Stereo-to-Depth_Image_Manipulation" class="portfolio__item">
+                <img src="images/stereo3.jpeg" alt="stereo-depth" class="portfolio__img">
+            </a>
+
+            <a href="https://github.com/mourice-oduor/Leaflet-Web-Map-Folium" class="portfolio__item">
+                <img src="images/webmap.jpg" alt="leaftlet-webmap" class="portfolio__img">
+            </a>
+
+            <a href="https://github.com/mourice-oduor/Twitter-Bot" class="portfolio__item">
+                <img src="images/twibot.png" alt="Twitter-Bot" class="portfolio__img">
+            </a>
+
+            <a href="https://github.com/mourice-oduor/Snake-Game" class="portfolio__item">
+                <img src="images/turtle-race.png" alt="turtle-game" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <a href="otienomaurice364@gmail.com" class="footer__link">hello@dev_mourice</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/mourice-oduor">github</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://twitter.com/Morys0">twitter</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/mourice-otieno-oduor-58188b166/">Linkedin</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://dev-mourice.herokuapp.com/">Website</a></li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+    
+</body>
+
+</html>
