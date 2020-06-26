@@ -49,6 +49,12 @@ body {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
+    overflow-x: hidden;
+}
+@media (min-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
 }
 
 section {
