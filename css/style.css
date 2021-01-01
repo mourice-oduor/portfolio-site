@@ -183,6 +183,7 @@ header {
     font-size: var(--fs-h2);
     text-decoration: none;
     display: block;
+    width: 100%;
 }
 
 .nav__link:hover {
