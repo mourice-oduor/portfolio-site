@@ -177,10 +177,10 @@ header {
     padding: 0;
 }
 
-.nav__item .nav__link {
+/* .nav__item .nav__link {
     display: block;
     width: 100%;
-}
+} */
 
 .nav__link {
     color: inherit;
