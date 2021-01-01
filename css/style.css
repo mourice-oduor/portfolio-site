@@ -168,7 +168,7 @@ header {
 
 .nav__list {
     list-style: none;
-    display: flex;
+    display: block;
     height: 100%;
     flex-direction: column;
     justify-content: space-evenly;
