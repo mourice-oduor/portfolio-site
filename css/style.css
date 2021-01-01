@@ -177,13 +177,16 @@ header {
     padding: 0;
 }
 
+.nav__item .nav__link {
+    display: block;
+    width: 100%;
+}
+
 .nav__link {
     color: inherit;
     font-weight: var(--fw-bold);
     font-size: var(--fs-h2);
     text-decoration: none;
-    display: block;
-    width: 100%;
 }
 
 .nav__link:hover {
