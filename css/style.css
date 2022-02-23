@@ -122,24 +122,25 @@ h3 {
     display: block;
 }
 
+/* .section__title--about {
+    display: block;
+    place-items: centre;
+    margin-bottom: .5rem;
+    font-size: 3rem;
+} */
+
 .section__subtitle {
     margin: 0;
     font-size: var(--fs-h3);
 }
 
-.section__subtitle--intro {
+.section__subtitle--intro,
+.section__subtitle--about {
     background: var(--clr-accent);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
 }
-.section__subtitle--about {
-    background: var(--clr-accent);
-    padding: 1rem .5rem;
-    font-family: var(--ff-secondary);
-    margin-bottom: .5rem;
-}
-
 .section__subtitle--work {
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
