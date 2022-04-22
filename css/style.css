@@ -65,6 +65,10 @@ img {
     display: block;
     max-width: 100%;
 }
+.display {
+    width: 30%;
+    height: 200px;
+}
 
 strong { font-weight: var(--fw-bold) }
 
