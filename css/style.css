@@ -67,7 +67,7 @@ img {
 }
 .display {
     width: 400px;
-    height: 500px;
+    height: 450px;
 }
 
 strong { font-weight: var(--fw-bold) }
