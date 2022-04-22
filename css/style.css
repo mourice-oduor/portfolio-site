@@ -66,8 +66,8 @@ img {
     max-width: 100%;
 }
 .display {
-    width: 30%;
-    height: 200px;
+    width: 400px;
+    height: 500px;
 }
 
 strong { font-weight: var(--fw-bold) }
